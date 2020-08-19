@@ -7,15 +7,15 @@
 ### Requirements:
 
 **Deliverables**
-*A theme for your site that you feel comfortable with
-*Complete all technical requirements for HTML, CSS, and Javascript
-*Have markups of your pages
-*Research for a public API that can provide you with content (Optional)
-*Include a README file. The file should include technical specifications and description of your website.
-*Host on GitHub,  include the link to your GitHub account in the README file(optional)
-*Submit the project in a ZIP file
+- A theme for your site that you feel comfortable with
+- Complete all technical requirements for HTML, CSS, and Javascript
+- Have markups of your pages
+- Research for a public API that can provide you with content (Optional)
+- Include a README file. The file should include technical specifications and description of your website.
+- Host on GitHub,  include the link to your GitHub account in the README file(optional)
+- Submit the project in a ZIP file
 
-### Technical Requirements:
+### Technical Requirements (as listed in our assignment document:
 **HTML**:
 - Have at least 3 pages, keep the grid system consistent as much as possible
 - Use at least 10 different HTML tags
