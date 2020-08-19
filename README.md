@@ -25,6 +25,7 @@
 - Use web fonts
 - Use different types of content in the form of text, images, videos, and GIFs
 - Use regex validation
+
 **CSS**:
 - Inline, internal, and external styling
 - Use five different CSS selectors
@@ -33,6 +34,7 @@
 - Use Flexbox (Optional)
 - Use SASS/SCSS (Optional)
 - Use animations (Optional)
+
 **Javascript**:
 - External scripts
 - Use variables, if statements, loops, at least one form of collections, functions/call back, and events
