@@ -1,0 +1,138 @@
+<DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <title>The ElectroThing!</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="./styles/styles.css">
+        <style>
+            table {
+                margin: auto;
+                width: 80%;
+                background-color: 4da167;
+                color: #cfcfcf;
+            }
+
+            table,
+            th,
+            td {
+                border: 1px solid #4d5057;
+                border-collapse: collapse;
+            }
+
+            td {
+                padding: 5px;
+                text-align: left;
+            }
+
+            th {
+                padding: 5px;
+                background-color: #4e6e5d;
+                text-align: center;
+            }
+
+            #center {
+                text-align: center;
+            }
+        </style>
+    </head>
+
+    <!-- background image by Pixabay, found on pexels.com-->
+
+    <body style="background-image: url('./images/circuitry3.jpg'); background-size: cover;">
+        <div class="menu-box">
+            <div class="menu-item">
+                <div class="logo-box">
+                    <!-- IMG file by me from a 3D render of a PCB I designed -->
+                    <img class="logo" src="./images/logo.PNG" alt="Logo" width="100" height="100">
+                    <span style="font-weight: 500; font-size: 36;">ThingTronics</span>
+                </div>
+            </div>
+            <div class="menu-item">
+                <nav id="nav">
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./views/register.html">Register</a></li>
+                        <li><a href="./views/contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="content" style="width: 800px; height: 500px; box-sizing: border-box;">
+            <div class="row" style=" display: flex;">
+                <div class="column">
+                    <h2 style="text-align: center;">Want a "one-machine-fits-all" solution for life?</h2>
+                    <h3>The ElectroThing&trade; might be for you!</h3>
+                    <p>
+                        This complex piece of machinery does almost anything a person could want:
+                    <ol>
+                        <li>It's a refrigerator!</li>
+                        <li>It's a wood burning stove!</li>
+                        <li>It files your taxes via <em>advanced telemetry&trade;</em></li>
+                        <li>It'll eat your broccoli for you, kids!</li>
+                        <li>And <strong>much more</strong>?!</li>
+                    </ol>
+                    </p>
+                    <h3 style="text-align: center;">Wow! When is this amazing thing going to come out?!</h3>
+                    <p>
+                        Some time in early 2038! Register now to receive endless ads from
+                        us - and <strong>NO</strong> coupons!
+                    </p>
+                </div>
+                <div class="column">
+                    <br />
+                    <h2 style="text-align: center;">Specifications:</h2>
+                    <table id>
+                        <thead>
+                            <th>Attribute</th>
+                            <th>Value</th>
+                            <th>Units</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Power Rating</td>
+                                <td>3.0</td>
+                                <td>kiloWatts</td>
+                            </tr>
+                            <tr>
+                                <td>Voltage Rating</td>
+                                <td>110</td>
+                                <td>VAC</td>
+                            </tr>
+                            <tr>
+                                <td>Current</td>
+                                <td>27.3</td>
+                                <td>Amperes</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <br />
+                    <div id="center">
+                        Here's what a famous actress had to say!
+                        <br />
+                        <!-- Royalty free embed from giphy.com -->
+                        <!-- No videos, since there's a higher concern for copyright issues there-->
+                        <iframe src="https://giphy.com/embed/h2MLtoOjxtkGY" width="110" height="120" frameBorder="0"
+                            class="giphy-embed" allowFullScreen></iframe>
+                        <p><a href="https://giphy.com/gifs/impressed-bfd-h2MLtoOjxtkGY">via GIPHY</a></p>
+                        <q style="color: #cfcfcf;"><em>WOW</em></q>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Extra form tacked on to showcase loops; it's hard to conceptualize a site designed around all of the SBA requirements! -->
+        <!-- For some reason, this form did NOT want to behave like the others; it took a long time to get everything centered and functional... -->
+        <div class="form-container" style="width: 400px; height: 225px; margin: 5px auto;">
+            <form id="math-form">
+                <div id="text-big" style="font-size: 24;"><strong>JS Math</strong>
+                <input class="input" type="text" name="num_Loop" placeholder="Enter a number to square" required />
+                <button class="button" name="btn_math" type="btn_math">Math!</button>
+                <input class="input" type="text" name="output_box" placeholder="Answer:">
+            </form>
+        </div>
+        <script type="text/javascript" src="scripts/scripts.js"></script>
+    </body>
+
+    </html>
+</DOCTYPE>
