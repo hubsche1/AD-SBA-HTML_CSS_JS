@@ -43,7 +43,7 @@
 - Use JQuery (Optional)
 
 ### Description of the planned site:
-I have just come up with a wonderful new electronic item, and need to start taking preorders! This simple site will include a description of the device, preorder registration form, and a contact form. Images included will be open license (pexels, etc.), and videos/gifs will need to be sourced similarly. Javascript will be used to store and log data for now, though AJAX or JSON may be explored within the time constraints. Will also handle mouseover/mouseleave events.
+I have just come up with a wonderful new electronic item, and need to start taking preorders! This simple site will include a description of the device, preorder registration form, and a contact form. Images included will be open license (pexels, etc.), and videos/gifs will need to be sourced similarly. Javascript will be used to store and log data for now, though AJAX or JSON may be explored within the time constraints. Will also handle mouseover/mouseleave events. I'll do this while attempting to inject a little humor into it all: it's just as important to enjoy the ride as it is to get to your destination.
 
 8/22/2020: I am calling this complete until I revisit it to improve it (after submission). There are a number of improvements to make:
 - responsive pages. I did not feel comfortable making this one responsive in such a short time, but responsive is really the only way to go.
