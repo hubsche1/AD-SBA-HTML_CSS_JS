@@ -30,12 +30,23 @@
         <div class="form-container" style="width: 500px; height: 260px; margin: 15px auto;">
             <form id="reg-form">
                 <div id="text-big"><strong>Register</strong><div>
-                <input class="input" type="text" name="reg_name" placeholder="Full Name" required />
-                <input class="input" type="email" name="reg_email" placeholder="Email" required />
-                <button class="button" name="submit" type="register_send">Send Me Ads!</button>
+                <input class="input" type="text" id="reg_name" placeholder="Full Name" required />
+                <input class="input" type="email" id="reg_email" placeholder="Email" required />
+                <button class="button" onclick="register()" id="reg_btn">Send Me Ads!</button>
             </form>
         </div>
-        <script type="text/javascript" src="scripts/scripts.js"></script>
+        <script type="text/javascript" src="../scripts/scripts.js"></script>
+        <script>
+            let btn = document.getElementById("reg_btn");
+            btn.addEventListener("mouseover", function() {
+                changeColor(event.target);
+            });
+            btn.addEventListener("mouseleave", function() {
+                changeBack(event.target);
+            });
+            function changeColor(eventTarget) {eventTarget.style.backgroundColor='#3bc14a';}
+            function changeBack(eventTarget) {eventTarget.style.backgroundColor='#4d5057';}
+        </script>
     </body>
 
     </html>

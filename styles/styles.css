@@ -75,6 +75,22 @@ input {
     font-size: 16px;
 }
 
+label {
+    display: block;
+    border: 1px solid white;
+    position: relative;
+    color: #cfcfcf;
+    background-color: #4da167;
+    font-weight: bold;
+    width: 90%;
+    height: 60px;
+    margin: 10px auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: left;
+    font-size: 16px;
+}
+
 select {
     width: 90%;
     height: 60px;

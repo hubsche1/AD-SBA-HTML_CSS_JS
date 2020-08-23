@@ -83,7 +83,7 @@
                 <div class="column">
                     <br />
                     <h2 style="text-align: center;">Specifications:</h2>
-                    <table id>
+                    <table>
                         <thead>
                             <th>Attribute</th>
                             <th>Value</th>
@@ -123,15 +123,25 @@
         </div>
         <!-- Extra form tacked on to showcase loops; it's hard to conceptualize a site designed around all of the SBA requirements! -->
         <!-- For some reason, this form did NOT want to behave like the others; it took a long time to get everything centered and functional... -->
-        <div class="form-container" style="width: 400px; height: 225px; margin: 5px auto;">
+        <div class="form-container" style="width: 400px; height: 160px; margin: 5px auto;">
             <form id="math-form">
                 <div id="text-big" style="font-size: 24;"><strong>JS Math</strong>
-                <input class="input" type="text" name="num_Loop" placeholder="Enter a number to square" required />
-                <button class="button" name="btn_math" type="btn_math">Math!</button>
-                <input class="input" type="text" name="output_box" placeholder="Answer:">
+                <input class="input" type="number" id="number_field" placeholder="Enter a number to square" required />
+                <button class="button" onclick="doMath()" id="math_btn">Math!</button>
             </form>
         </div>
         <script type="text/javascript" src="scripts/scripts.js"></script>
+        <script>
+            let btn = document.getElementById("math_btn");
+            btn.addEventListener("mouseover", function() {
+                changeColor(event.target);
+            });
+            btn.addEventListener("mouseleave", function() {
+                changeBack(event.target);
+            });
+            function changeColor(eventTarget) {eventTarget.style.backgroundColor='#3bc14a';}
+            function changeBack(eventTarget) {eventTarget.style.backgroundColor='#4d5057';}
+        </script>
     </body>
 
     </html>

@@ -30,19 +30,30 @@
         <div class="form-container" style="width: 500px; height: 545px; margin: 15px auto;">
             <form id="comment-form">
                 <div id="text-big"><strong>Contact Us</strong><div>
-                <input class="input" type="text" name="cont_name" placeholder="Name" required />
-                <input class="input" type="email" name="cont_email" placeholder="Email" required />
+                <input class="input" type="text" id="cont_name" placeholder="Name" required />
+                <input class="input" type="email" id="cont_email" placeholder="Email" required />
                 <select name="cont_choice" id="cont_choice">
                     <option>Request more details</option>
                     <option>Request specs</option>
                     <option>Job Application</option>
                     <option>Misc Comments</option>
                 </select>
-                <textarea name="comment" form="comment_area" placeholder="Comments:"></textarea>
-                <button class="button" name="submit" type="contact_send">Contact Us</button>
+                <textarea name="comment" form="comment_area" id="cont_text" placeholder="Comments:" required></textarea>
+                <button class="button" onclick="sendMessage()" id="cont_btn">Contact Us</button>
             </form>
         </div>
-        <script type="text/javascript" src="scripts/scripts.js"></script>
+        <script type="text/javascript" src="../scripts/scripts.js"></script>
+        <script>
+            let btn = document.getElementById("cont_btn");
+            btn.addEventListener("mouseover", function() {
+                changeColor(event.target);
+            });
+            btn.addEventListener("mouseleave", function() {
+                changeBack(event.target);
+            });
+            function changeColor(eventTarget) {eventTarget.style.backgroundColor='#3bc14a';}
+            function changeBack(eventTarget) {eventTarget.style.backgroundColor='#4d5057';}
+        </script>
     </body>
 
     </html>
